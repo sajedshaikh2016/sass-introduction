@@ -27,7 +27,7 @@ $font-sm: 1rem;
   @return $size * 2;
 }
 
-.heading {
+%heading {
   color: $color-primary;
   font-size: $font-lg;
   background-color: transparentize($color: $color-secondary, $amount: 0.1);
@@ -35,7 +35,7 @@ $font-sm: 1rem;
 }
 
 .banner h2 {
-  @extend .heading;
+  @extend %heading;
 }
 
 .banner p {

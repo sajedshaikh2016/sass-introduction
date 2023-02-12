@@ -9,7 +9,7 @@
     .nav a:hover {
       color: royalblue; }
 
-.heading, .banner h2 {
+.banner h2 {
   color: orange;
   font-size: 4rem;
   background-color: rgba(128, 128, 128, 0.9);
