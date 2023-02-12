@@ -7,7 +7,7 @@ $font-md: 3rem;
 $font-sm: 1rem;
 
 .nav {
-  background-color: $color-primary;
+  background-color: lighten($color: $color-primary, $amount: 20%);
 
   ul li {
     list-style: none;
@@ -16,7 +16,7 @@ $font-sm: 1rem;
   a {
     text-decoration: none;
     font-size: $font-sm;
-    color: $color-secondary;
+    color: darken($color: $color-secondary, $amount: 50%);
     &:hover {
       color: $color-tertiary;
     }
@@ -30,7 +30,7 @@ $font-sm: 1rem;
 .heading {
   color: $color-primary;
   font-size: $font-lg;
-  background-color: $color-secondary;
+  background-color: transparentize($color: $color-secondary, $amount: 0.1);
   text-align: center;
 }
 
