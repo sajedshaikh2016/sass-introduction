@@ -9,6 +9,12 @@
     .nav a:hover {
       color: royalblue; }
 
+.heading, .banner h2 {
+  color: orange;
+  font-size: 4rem;
+  background-color: gray;
+  text-align: center; }
+
 .banner h1 {
   font-size: 4rem;
   color: gray;
