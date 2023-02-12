@@ -23,6 +23,10 @@ $font-sm: 1rem;
   }
 }
 
+@function fontsize($size: 2.5rem) {
+  @return $size * 2;
+}
+
 .heading {
   color: $color-primary;
   font-size: $font-lg;
@@ -32,6 +36,10 @@ $font-sm: 1rem;
 
 .banner h2 {
   @extend .heading;
+}
+
+.banner p {
+  font-size: fontsize($font-sm);
 }
 
 @mixin headingStyles($font-size) {
@@ -56,4 +64,8 @@ $font-sm: 1rem;
     color: $color-tertiary;
     background-color: $color-primary;
   }
+}
+
+.footer p {
+  font-size: fontsize(0.5rem);
 }

@@ -15,6 +15,9 @@
   background-color: gray;
   text-align: center; }
 
+.banner p {
+  font-size: 2rem; }
+
 .banner h1 {
   font-size: 4rem;
   color: gray;
@@ -28,3 +31,6 @@
   .footer h3:hover {
     color: royalblue;
     background-color: orange; }
+
+.footer p {
+  font-size: 1rem; }
