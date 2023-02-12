@@ -1,0 +1,23 @@
+$color-primary: orange;
+$color-secondary: green;
+$color-tertiary: royalblue;
+
+$font-lg: 4rem;
+$font-md: 3rem;
+$font-sm: 2rem;
+
+.nav {
+  background-color: $color-primary;
+}
+
+.banner h1 {
+  font-size: $font-lg;
+  color: $color-secondary;
+  text-align: center;
+}
+
+.footer h3 {
+  font-size: $font-md;
+  color: $color-secondary;
+  text-align: center;
+}
