@@ -1,10 +1,5 @@
-$color-primary: orange;
-$color-secondary: gray;
-$color-tertiary: royalblue;
-
-$font-lg: 4rem;
-$font-md: 3rem;
-$font-sm: 1rem;
+@import "fonts";
+@import "colors";
 
 .nav {
   background-color: lighten($color: $color-primary, $amount: 20%);
