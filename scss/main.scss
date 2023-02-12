@@ -23,14 +23,26 @@ $font-sm: 1rem;
   }
 }
 
-.banner h1 {
-  font-size: $font-lg;
+@mixin headingStyles($font-size) {
+  font-size: $font-size;
   color: $color-secondary;
   text-align: center;
 }
 
+@mixin transition($param...) {
+  transition: $param;
+}
+
+.banner h1 {
+  @include headingStyles($font-lg);
+}
+
 .footer h3 {
-  font-size: $font-md;
-  color: $color-secondary;
-  text-align: center;
+  @include headingStyles($font-md);
+  @include transition(color 0.5s, background-color 1s);
+
+  &:hover {
+    color: $color-tertiary;
+    background-color: $color-primary;
+  }
 }
